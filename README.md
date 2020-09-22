@@ -8,7 +8,7 @@ I took on a challenge to completed 10 Websites from Design to HTML/CSS while str
 
 Here are the websites I've built:
 
-- Automotive Car
+- autofix Car
 - Restaurant Food
 - Shoes Footwear
 - Fashion Clothes
