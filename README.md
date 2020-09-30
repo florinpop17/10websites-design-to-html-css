@@ -1,12 +1,12 @@
-# 10 Websites - Design to HTML/CSS
+#10 Websites - Design to HTML/CSS
 
 YouTube video is now Live, click below:
 
 [![10Websites](10websites.png)](https://www.youtube.com/watch?v=Rz-rey4Q1bw)
 
-I took on a challenge to completed 10 Websites from Design to HTML/CSS while streaming everything on [Twitch](https://twitch.tv/florinpop17).
+I took a challenge to complete 10 Websites from Design to HTML/CSS while streaming everything on [Twitch](https://twitch.tv/florinpop17).
 
-Here are the websites I've built:
+Here are the websites those I've built:
 
 -   Automotive Car
 -   Restaurant Food
