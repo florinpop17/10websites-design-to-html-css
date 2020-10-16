@@ -18,22 +18,30 @@ p {
     color: #29415e;
     font-size: 2rem;
     width: 700px;
-
+    font-family: 'Courier New', Courier, monospace;
     position: fixed;
     top: 4rem;
     left: 3rem;
 }
 
 h1 {
-    background-color: #fff;
+    background-color: black;
+    color: white;
     display: inline-block;
-    font-size: 5rem;
+    opacity: 0.5;
+    border-radius: 20px;
+    font-size: 4rem;
     font-weight: 200;
     padding: 1.5rem;
-
     position: fixed;
     top: 15rem;
     left: 2rem;
+}
+h1:hover{
+    background-color: red;
+    color: white;
+    font-size: 50px;
+
 }
 
 a {
