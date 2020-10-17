@@ -8,15 +8,15 @@ I took on a challenge to completed 10 Websites from Design to HTML/CSS while str
 
 Here are the websites I've built:
 
--   Automotive Car
--   Restaurant Food
--   Shoes Footwear
--   Fashion Clothes
--   Tourism Landscape
--   News Magazine
--   Legal Law Firm
--   TV Video Streaming
--   Technology IT
--   Portfolio Resume
+- autofix Car
+- Restaurant Food
+- Shoes Footwear
+- Fashion Clothes
+- Tourism Landscape
+- News Magazine
+- Legal Law Firm
+- TV Video Streaming
+- Technology IT
+- Portfolio Resume
 
 Check them out [here](https://10websites-design-to-html-css.netlify.app).
