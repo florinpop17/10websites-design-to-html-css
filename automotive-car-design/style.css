@@ -70,6 +70,10 @@ nav li a {
     padding: 1rem;
     text-decoration: none;
 }
+.highlight:hover{
+    background-color: #7FFD4
+    transation: 1s;
+}
 
 footer {
     background-color: #000;
