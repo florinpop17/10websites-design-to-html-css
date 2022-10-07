@@ -36,6 +36,11 @@ li a {
     font-size: 1.2rem;
     text-decoration: none;
 }
+li a:hover {
+    color: #FF00FF;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
 
 footer {
     background-color: rgb(119, 65, 173);
