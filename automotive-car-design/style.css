@@ -1,123 +1,143 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+:root {
+    --color: #00c2ff
+}
 
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #fff;
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-}
-
-.container {
-    padding: 1rem;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 1000px;
-}
-
-header {
-    background-image: url("car-bg.jpg");
+main {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(car-bg.jpg);
+    background-position: center;
     background-size: cover;
-    background-position: center center;
-    color: white;
+    color: #fff;
+    font-family: "merienda";
+    padding: 0 200px;
+}
+
+main .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+main .top .right i {
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+main .top .right span {
+    font-size: 2rem;
+}
+
+main .top .links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    list-style: none;
+}
+
+main .top .links ul li {
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+main .top .links ul .btn {
+    background-color: var(--color);
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+main .top .links ul .btn:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+main .top .links ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    transition: all 1s;
+}
+
+main .top .links ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    background-color: var(--color) !important;
+    transition: all 2s;
+    height: 2px;
+}
+
+main .top .links ul li a:hover {
+    color: var(--color);
+    /* text-decoration: underline; */
+}
+
+main .top .links ul li a:hover::after {
+    width: 100%;
+}
+
+/* body */
+.body {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    min-height: calc(100vh - 102px);
+    padding-top: 50px;
 }
 
-.content {
+.body .first {
+    font-size: 3rem;
+    color: var(--color);
+    text-transform: capitalize;
+}
+
+.body .second {
     font-size: 2rem;
-    margin: auto;
-    max-width: 100%;
+    text-transform: capitalize;
+    padding: 20px 0;
 }
 
-.content h1 {
-    color: #00c2ff;
-    margin-bottom: 0;
+.body .button button {
+    padding: 15px 80px;
+    background-color: var(--color);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: capitalize;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-nav .logo {
-    font-size: 2.5rem;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li a {
-    color: white;
-    padding: 1rem;
-    text-decoration: none;
-}
-
-.selected {
-    font-weight: bold;
-}
-
-.highlight {
-    background-color: #00c2ff;
-    color: white;
-    padding: 1rem;
-    text-decoration: none;
-}
-
+/* footer */
 footer {
     background-color: #000;
     color: #fff;
-    padding: 1rem;
-}
-
-footer ul {
+    height: 10vh;
+    padding: 5px 200px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
+    align-items: center;
 }
 
-footer strong {
-    color: #00c2ff;
+footer span {
+    display: block;
+    font-size: 1.4rem;
+    text-transform: capitalize;
 }
 
-footer p {
-    margin: 0;
-}
-
-@media screen and (max-width: 700px) {
-    .content {
-        font-size: 1.4rem;
-        margin: 2rem auto 0;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav li:not(:last-child) {
-        margin-bottom: 1rem;
-    }
-
-    nav .highlight {
-        display: none;
-    }
-
-    footer ul {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    footer li {
-        margin: 1rem;
-        text-align: center;
-    }
+footer span:first-child {
+    color: var(--color);
+    font-weight: 900;
 }
